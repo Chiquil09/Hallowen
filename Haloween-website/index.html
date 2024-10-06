@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heloween Website</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <!-- Header Start -->
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <button class="navbar-toggler">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- Header End -->
+    <!-- Home banner start -->
+    <div class="home-banner">
+        <div class="container-banner">
+            <div class="row">
+                <div class="home-img">
+                    <img src="img/banner.png" alt="" class="banner-img">
+                    <div class="cloud-img">
+                        <img src="img/cloud.png" alt="" style="--i:1">
+                        <img src="img/cloud.png" alt="" style="--i:2">
+                        <img src="img/cloud.png" alt="" style="--i:3">
+                        <img src="img/cloud.png" alt="" style="--i:4">
+                        <img src="img/cloud.png" alt="" style="--i:5">
+                    </div>
+                </div>
+                <div class="banner-details">
+                    <div class="container">
+                        <div class="banner-text">
+                            <h2 class="banner-title">
+                                Halloween Party
+                            </h2>
+                            <p class="banner-desc">
+                                Prepárate para una noche llena de sustos, disfraces espeluznantes, y muchas sorpresas. Ven a celebrar con nosotros y disfruta de buena música, juegos, comida y un concurso de disfraces donde el más aterrador se llevará un premio especial.
+                        
+                                <br><br>
+                                <strong>Fecha:</strong> 31 de octubre<br>
+                                <strong>Hora:</strong> 8:00 PM<br>
+                                <strong>Lugar:</strong> [Agregar dirección del evento]
+                                <br><br>
+                                No olvides tu disfraz… ¡Cuanto más espeluznante, mejor!<br>
+                                Confirma tu asistencia antes del [fecha de confirmación].
+                                <br><br>
+                                ¡Te esperamos para una noche llena de terror y diversión!
+                            </p>
+                            <div class="banner-btn">
+                                <a href="video/video-01.mp4" class="btn">
+                                    Confirmar asistencia
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Home banner end -->
+
+    <script>
+        const navToggler = 
+        document.querySelector(".navbar-toggler");
+
+        const links = 
+        document.querySelector(".navbar-collapse");
+
+        navToggler.addEventListener
+        ("click", function() {
+            links.classList.toggle("show-links");
+        })
+    </script>
+</body>
+</html>
